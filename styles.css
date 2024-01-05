@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eaeaea;
+}
+
+#header {
+  text-align: center;
+  background-color: #000000; /* Choose your desired background color */
+  margin-bottom: 20px;
+}
+
+.post {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+#searchSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#search {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+#searchInput {
+  width: 200px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.add-post-form {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.add-post-form label,
+.add-post-form textarea {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#postTitle {
+  margin-left: 10px;
+}
+
+#addPost {
+  margin-left: 10px;
+}
+
+#postList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#postList li {
+  margin-bottom: 50px;
+}

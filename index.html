@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Final Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <img src="./4-2-blogging-picture-thumb.png" alt="Blog" />
+    </div>
+    <div class="posts-container">
+      <div id="searchSection">
+        <input type="text" id="searchInput" placeholder="Pesquisar.." />
+        <button id="search" onclick="search()">Pesquisar</button>
+        <div id="postCount"></div>
+      </div>
+    </div>
+    <div class="add-post-form" id="postDetails">
+      <label for="postTitle">Título:</label>
+      <input type="text" id="postTitle" />
+
+      <label for="postContent">Conteúdo:</label>
+      <textarea id="postContent"></textarea>
+
+      <button id="addPost" onclick="addPost()">Criar Post</button>
+    </div>
+
+    <ul id="postList"></ul>
+  </body>
+</html>
