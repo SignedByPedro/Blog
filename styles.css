@@ -6,7 +6,7 @@ body {
 
 #header {
   text-align: center;
-  background-color: #000000; /* Choose your desired background color */
+  background-color: #212121; /* Choose your desired background color */
   margin-bottom: 20px;
 }
 
@@ -67,4 +67,8 @@ body {
 
 #postList li {
   margin-bottom: 50px;
+}
+
+#postCount {
+  margin: 5px;
 }
